@@ -5,3 +5,12 @@ I am creating a endless runner where the player will fight enemies by jumping, a
 Core Verb: Dash
 
 One thing to cut: Differnt characters.
+
+Week2
+CPU: 15.96 ms
+Rendering: 2 setpass calls
+Memory: 4 Gc allocated in frame.
+
+swipeDp = 50f
+tapMax = .3f
+
