@@ -1,0 +1,1588 @@
+0001/01/01 00:00:00.000 -1 -1 Info  --------- beginning of main
+2026/09/23 14:36:40.267 8835 8835 Info a.mobilegamedev Late-enabling -Xcheck:jni
+2026/09/23 14:36:40.291 8835 8835 Info a.mobilegamedev Using generational CollectorTypeCC GC.
+2026/09/23 14:36:40.297 8835 8835 Debug nativeloader Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+2026/09/23 14:36:40.301 8835 8835 Info MessageMonitor Load libmiui_runtime
+2026/09/23 14:36:40.319 8835 8835 Debug CompatibilityChangeReporter Compat change id reported: 171979766; UID 10290; state: ENABLED
+2026/09/23 14:36:40.323 8835 8846 Debug AppScoutStateMachine 8835-ScoutStateMachinecreated
+2026/09/23 14:36:40.456 8835 8835 Debug nativeloader Configuring clns-4 for other apk /data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/lib/arm64:/data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.kianodea.mobilegamedev
+2026/09/23 14:36:40.464 8835 8835 Debug nativeloader Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+2026/09/23 14:36:40.467 8835 8835 Verbose GraphicsEnvironment ANGLE Developer option for 'com.kianodea.mobilegamedev' set to: 'default'
+2026/09/23 14:36:40.468 8835 8835 Verbose GraphicsEnvironment ANGLE GameManagerService for com.kianodea.mobilegamedev: false
+2026/09/23 14:36:40.468 8835 8835 Verbose GraphicsEnvironment App is not on the allowlist for updatable production driver.
+2026/09/23 14:36:40.476 8835 8835 Info ForceDarkHelperStubImpl initialize for com.kianodea.mobilegamedev , ForceDarkAppConfig: null
+2026/09/23 14:36:40.477 8835 8835 Debug nativeloader Load libforcedarkimpl.so using system ns (caller=/system_ext/framework/miui-framework.jar): ok
+2026/09/23 14:36:40.477 8835 8835 Debug a.mobilegamedev JNI_OnLoad success
+2026/09/23 14:36:40.477 8835 8835 Info MiuiForceDarkConfig setConfig density:2.750000, mainRule:0, secondaryRule:0, tertiaryRule:0
+2026/09/23 14:36:40.479 8835 8835 Warn libc Access denied finding property "ro.vendor.df.effect.conflict"
+2026/09/23 14:36:40.473 8835 8835 Warn a.mobilegamedev type=1400 audit(0.0:73206134): avc: denied { read } for name="u:object_r:vendor_displayfeature_prop:s0" dev="tmpfs" ino=12692 scontext=u:r:untrusted_app:s0:c34,c257,c512,c768 tcontext=u:object_r:vendor_displayfeature_prop:s0 tclass=file permissive=0 app=com.google.android.apps.wellbeing
+2026/09/23 14:36:40.480 8835 8835 Debug NetworkSecurityConfig No Network Security Config specified, using platform default
+2026/09/23 14:36:40.481 8835 8835 Debug NetworkSecurityConfig No Network Security Config specified, using platform default
+2026/09/23 14:36:40.482 8835 8835 Debug CompatibilityChangeReporter Compat change id reported: 183155436; UID 10290; state: ENABLED
+2026/09/23 14:36:40.497 8835 8835 Debug MiuiMultiWindowAdapter MiuiMultiWindowAdapter::getFreeformVideoWhiteListInSystem::LIST_ABOUT_SUPPORT_LANDSCAPE_VIDEO = [com.hunantv.imgo.activity, com.tencent.qqlive, com.qiyi.video, com.hunantv.imgo.activity.inter, com.tencent.qqlivei18n, com.iqiyi.i18n, tv.danmaku.bili]
+2026/09/23 14:36:40.508 8835 8835 Debug nativeloader Load /data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/lib/arm64/libgame.so using class loader ns clns-4 (caller=/data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/base.apk!classes2.dex): ok
+2026/09/23 14:36:40.509 8835 8835 Debug GameActivity GameActivity_register
+2026/09/23 14:36:40.525 8835 8835 Debug AppCompatDelegate Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2026/09/23 14:36:40.534 8835 8835 Debug Drawable setShouldDeclineWhiteColor false
+2026/09/23 14:36:40.541 8835 8835 Info SurfaceFactory [static] sSurfaceFactory = com.mediatek.view.impl.SurfaceFactoryImpl@9d2d072
+2026/09/23 14:36:40.544 8835 8835 Debug gti.InputConnection InputConnection created
+2026/09/23 14:36:40.544 8835 8835 Debug gti.InputConnection setEditorInfo
+2026/09/23 14:36:40.549 8835 8835 Debug IS_CTS_MODE false
+2026/09/23 14:36:40.549 8835 8835 Debug MULTI_WINDOW_ENABLED false
+2026/09/23 14:36:40.552 8835 8835 Debug DecorView[] getWindowModeFromSystem  windowmode is 1
+2026/09/23 14:36:40.568 8835 8835 Info a.mobilegamedev hiddenapi: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app, TargetSdkVersion=36) using reflection: allowed
+2026/09/23 14:36:40.568 8835 8835 Info a.mobilegamedev hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app, TargetSdkVersion=36) using reflection: allowed
+2026/09/23 14:36:40.578 8835 8835 Debug nativeloader Load /data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/lib/arm64/libmain.so using class loader ns clns-4 (caller=/data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/base.apk): ok
+2026/09/23 14:36:40.609 8835 8835 Info IL2CPP JNI_OnLoad
+2026/09/23 14:36:40.609 8835 8835 Verbose Unity Context Type: GameActivity
+2026/09/23 14:36:40.609 8835 8835 Debug Unity CommandLine:  
+2026/09/23 14:36:40.627 8835 8835 Warn OnBackInvokedCallback OnBackInvokedCallback is not enabled for the application.
+2026/09/23 14:36:40.627 8835 8835 Warn OnBackInvokedCallback Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+2026/09/23 14:36:40.628 8835 8835 Info GameActivity Looking for library libgame.so
+2026/09/23 14:36:40.628 8835 8835 Info GameActivity Found library libgame.so. Loading...
+2026/09/23 14:36:40.630 8835 8835 Debug GameActivity SDK version: 33
+2026/09/23 14:36:40.632 8835 8855 Info Unity UnityApplication::CreateInstance
+2026/09/23 14:36:40.632 8835 8855 Info Unity GameActivity Package Version '4.4.0'
+2026/09/23 14:36:40.633 8835 8855 Info Unity Starting Game Loop
+2026/09/23 14:36:40.656 8835 8855 Info Unity Handle cmd APP_CMD_START(11)
+2026/09/23 14:36:40.659 8835 8835 Info Unity onResume
+2026/09/23 14:36:40.659 8835 8835 Info Unity resumeUnity
+2026/09/23 14:36:40.665 8835 8855 Info Unity Handle cmd APP_CMD_RESUME(12)
+2026/09/23 14:36:40.669 8835 8835 Info MSYNC3-VariableRefreshRate Variable refreshrate is disabled
+2026/09/23 14:36:40.675 8835 8856 Debug nativeloader Load libpowerhalwrap_jni.so using system ns (caller=/system/framework/mediatek-framework.jar): ok
+2026/09/23 14:36:40.675 8835 8856 Info PowerHalWrapper PowerHalWrapper.getInstance 
+0001/01/01 00:00:00.000 -1 -1 Info  --------- beginning of system
+2026/09/23 14:36:40.677 8835 8835 Debug ForceDarkHelperStubImpl com.kianodea.mobilegamedev force enable hardware acceleration
+2026/09/23 14:36:40.682 8835 8835 Info ForceDarkHelperStubImpl setViewRootImplForceDark: false for com.unity3d.player.UnityPlayerGameActivity@6fa6b35, reason: AppDarkModeEnable
+2026/09/23 14:36:40.682 8835 8835 Debug VRI[UnityPlayerGameActivity] hardware acceleration = true, forceHwAccelerated = false
+2026/09/23 14:36:40.688 8835 8835 Debug libMEOW meow new tls: 0xb40000714dd5df80
+2026/09/23 14:36:40.688 8835 8835 Debug libMEOW meow reload base cfg path: na
+2026/09/23 14:36:40.688 8835 8835 Debug libMEOW meow reload overlay cfg path: na
+2026/09/23 14:36:40.688 8835 8835 Warn QT qt_process_init() called
+2026/09/23 14:36:40.689 8835 8835 Error QT [QT]file does not exist
+2026/09/23 14:36:40.689 8835 8835 Warn QT Support!!
+2026/09/23 14:36:40.689 8835 8835 Error QT [QT]file does not exist
+2026/09/23 14:36:40.689 8835 8835 Debug libMEOW applied 1 plugins for [com.kianodea.mobilegamedev]:
+2026/09/23 14:36:40.689 8835 8835 Debug libMEOW   plugin 1: [libMEOW_gift.so]:
+2026/09/23 14:36:40.692 8835 8835 Warn Looper PerfMonitor looperActivity : package=com.kianodea.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity time=0ms latency=373ms running=0ms  procState=-1  historyMsgCount=2 (msgIndex=1 wall=176ms seq=3 late=6ms h=android.app.ActivityThread$H w=110) (msgIndex=2 wall=197ms seq=4 late=176ms h=android.app.ActivityThread$H w=159)
+2026/09/23 14:36:40.698 8835 8835 Verbose GameActivity onImeInsetsChanged from Text Listener
+2026/09/23 14:36:40.698 8835 8855 Info Unity Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+2026/09/23 14:36:40.707 8835 8835 Debug BufferQueueConsumer [](id:228300000000,api:0,p:-1,c:8835) connect: controlledByApp=false
+2026/09/23 14:36:40.709 8835 8835 Error FBI Can't load library: dlopen failed: library "libmagtsync.so" not found
+2026/09/23 14:36:40.711 8835 8835 Verbose GameActivity onImeInsetsChanged from Text Listener
+2026/09/23 14:36:40.712 8835 8855 Info Unity Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+2026/09/23 14:36:40.712 8835 8858 Debug libMEOW meow new tls: 0xb40000714ddacb80
+2026/09/23 14:36:40.712 8835 8858 Debug libMEOW applied 1 plugins for [com.kianodea.mobilegamedev]:
+2026/09/23 14:36:40.712 8835 8858 Debug libMEOW   plugin 1: [libMEOW_gift.so]:
+2026/09/23 14:36:40.720 8835 8855 Info Unity Handle cmd APP_CMD_CONTENT_RECT_CHANGED(5)
+2026/09/23 14:36:40.720 8835 8835 Debug SurfaceView UPDATE null, mIsCastMode = false
+2026/09/23 14:36:40.723 8835 8835 Debug BufferQueueConsumer [](id:228300000001,api:0,p:-1,c:8835) connect: controlledByApp=false
+2026/09/23 14:36:40.724 8835 8855 Info Unity Handle cmd APP_CMD_INIT_WINDOW(1)
+2026/09/23 14:36:40.726 8835 8835 Error SurfaceSyncer Failed to find sync for id=0
+2026/09/23 14:36:40.727 8835 8858 Warn libc Access denied finding property "vendor.migl.debug"
+2026/09/23 14:36:40.727 8835 8858 Error libMiGL libmigl:This GPU version is note support Variable Shading Rate
+2026/09/23 14:36:40.729 8835 8858 Error libEGL pre_cache appList: com.android.calendar,com.android.contacts,com.android.fileexplorer,com.android.mms,com.android.settings,com.android.thememanager,com.miui.calculator,com.miui.gallery,com.miui.notes,com.miui.player,com.miui.securitycenter,com.miui.video,com.miui.weather2
+2026/09/23 14:36:40.733 8835 8835 Debug Drawable getShouldDeclineWhiteColor false
+2026/09/23 14:36:40.735 8835 8835 Debug Drawable getShouldDeclineWhiteColor false
+2026/09/23 14:36:40.737 8835 8858 Debug a.mobilegamedev MiuiProcessManagerServiceStub setSchedFifo
+2026/09/23 14:36:40.737 8835 8858 Info MiuiProcessManagerImpl setSchedFifo pid:8835, mode:3
+2026/09/23 14:36:40.743 8835 8858 Debug hw-ProcessState Binder ioctl to enable oneway spam detection failed: Invalid argument
+2026/09/23 14:36:40.745 8835 8855 Info Unity MemoryManager: Using 'Dynamic Heap' Allocator.
+2026/09/23 14:36:40.745 8835 8855 Info Unity Mimalloc is enabled and will override the Dynamic Heap and Dual Thread (Main and MainThread) allocators.
+2026/09/23 14:36:40.745 8835 8855 Debug Unity [UnityMemory] Configuration Parameters - Can be set up in boot.config
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-temp-allocator-size-cloud-worker=32768"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-temp-allocator-size-audio-worker=65536"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-temp-allocator-size-preload-manager=262144"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-remapper-allocator-initial-capacity=32768"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-temp-allocator-size-gfx=262144"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-allocator-temp-initial-block-size-main=262144"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-temp-allocator-size-background-worker=32768"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-temp-allocator-size-job-worker=262144"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-bucket-allocator-granularity=16"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-bucket-allocator-bucket-count=8"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-bucket-allocator-block-size=4194304"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-bucket-allocator-block-count=1"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-main-allocator-block-size=16777216"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-thread-allocator-block-size=16777216"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-main-allocator-mimalloc-enabled=1"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-gfx-main-allocator-block-size=16777216"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-gfx-thread-allocator-block-size=16777216"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-cache-allocator-block-size=4194304"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-typetree-allocator-block-size=2097152"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-profiler-bucket-allocator-granularity=16"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-profiler-bucket-allocator-block-count=1"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-profiler-allocator-block-size=16777216"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-profiler-editor-allocator-block-size=1048576"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-temp-allocator-size-main=4194304"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-job-temp-allocator-block-size=2097152"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-job-temp-allocator-block-size-background=1048576"
+2026/09/23 14:36:40.745 8835 8855 Debug Unity     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+2026/09/23 14:36:40.748 8835 8858 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:40.748 8835 8858 Debug BLASTBufferQueue [VRI[UnityPlayerGameActivity]#0](f:0,a:1) acquireNextBufferLocked size=1080x2400 mFrameNumber=1 applyTransaction=true mTimestamp=1926346823626510(auto) mPendingTransactions.size=0 graphicBufferId=37946036060160 transform=0
+2026/09/23 14:36:40.750 8835 8858 Warn Parcel Expecting binder but got null!
+2026/09/23 14:36:40.752 8835 8835 Debug SurfaceView UPDATE Surface(name=SurfaceView[com.kianodea.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity])/@0xc3828a, mIsProjectionMode = false
+2026/09/23 14:36:40.752 8835 8835 Debug SurfaceControl nativeSetScreenProjection ===> setScreenProjection
+2026/09/23 14:36:40.753 8835 8835 Debug SurfaceControl nativeSetScreenProjection ===> setScreenProjection
+2026/09/23 14:36:40.753 8835 8835 Debug SurfaceControl nativeSetScreenProjection ===> setScreenProjection
+2026/09/23 14:36:40.762 8835 8855 Debug Unity Enabling Unity systrace
+2026/09/23 14:36:40.762 8835 8855 Debug Unity Starting Unity systrace
+2026/09/23 14:36:40.769 8835 8855 Info Unity SetGameState: isLoading: true, mode: UNKNOWN, label: -2, quality: -1
+2026/09/23 14:36:40.773 8835 8835 Error SurfaceSyncer Failed to find sync for id=0
+2026/09/23 14:36:40.777 8835 8858 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:40.777 8835 8855 Debug Unity [VFS] Mount /data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/base.apk
+2026/09/23 14:36:40.779 8835 8835 Info Unity windowFocusChanged: true
+2026/09/23 14:36:40.779 8835 8835 Debug DecorView[] onWindowFocusChanged hasWindowFocus true
+2026/09/23 14:36:40.780 8835 8855 Debug Unity Loading player data from /data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/base.apk/assets/bin/Data/data.unity3d
+2026/09/23 14:36:40.780 8835 8835 Info HandWritingStubImpl refreshLastKeyboardType: 1
+2026/09/23 14:36:40.781 8835 8835 Info HandWritingStubImpl getCurrentKeyboardType: 1
+2026/09/23 14:36:40.785 8835 8855 Error Unity java.lang.ClassNotFoundException: Didn't find class "com.google.android.play.core.assetpacks.AssetPackManager" on path: DexPathList[[zip file "/data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/base.apk"],nativeLibraryDirectories=[/data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/lib/arm64, /data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+2026/09/23 14:36:40.786 8835 8835 Info HandWritingStubImpl getCurrentKeyboardType: 1
+2026/09/23 14:36:40.796 8835 8858 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:40.798 8835 8855 Info Unity SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 3606mb
+2026/09/23 14:36:40.798 8835 8855 Info Unity SystemInfo ARM big.LITTLE configuration: 2 big (mask: 0xc0), 6 little (mask: 0x3f)
+2026/09/23 14:36:40.798 8835 8855 Info Unity ApplicationInfo 'com.kianodea.mobilegamedev', Version '0.1.0', Min API Level '26', Target API Level '36'
+2026/09/23 14:36:40.798 8835 8855 Info Unity Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch, Version '6000.6.0f1 (f7f8ed4d1e24)', Build type 'Development', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+2026/09/23 14:36:40.798 8835 8855 Info Unity Device Model 'Xiaomi M2103K19G', OS 'Android OS 13 (API 33)'
+2026/09/23 14:36:40.799 8835 8855 Debug Unity Determine if il2cpp resources need to be extracted:
+2026/09/23 14:36:40.799 8835 8855 Debug Unity     il2cpp resources are up to date, not extracting
+2026/09/23 14:36:40.816 8835 8835 Verbose GameActivity onImeInsetsChanged from Text Listener
+2026/09/23 14:36:40.853 8835 8855 Debug Unity Remaining time:30s
+2026/09/23 14:36:40.853 8835 8855 Debug Unity Found 1 interfaces on host :
+2026/09/23 14:36:40.853 8835 8855 Debug Unity  0) 10.129.22.229
+2026/09/23 14:36:40.853 8835 8855 Debug Unity 
+2026/09/23 14:36:40.854 8835 8855 Debug Unity Player connection [487502781488]  Target information:
+2026/09/23 14:36:40.854 8835 8855 Debug Unity 
+2026/09/23 14:36:40.854 8835 8855 Debug Unity Player connection [487502781488]  * "[IP] 10.129.22.229 [Port] 55000 [Flags] 19 [Guid] 2946714685 [EditorId] 346569059 [Version] 1048832 [Id] AndroidPlayer(11,Xiaomi_M2103K19G@10.129.22.229) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] Mobile Game Dev" 
+2026/09/23 14:36:40.854 8835 8855 Debug Unity 
+2026/09/23 14:36:40.854 8835 8855 Debug Unity Player connection [487502781488] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+2026/09/23 14:36:40.854 8835 8855 Debug Unity 
+2026/09/23 14:36:40.854 8835 8855 Debug Unity Player connection [487502781488] Starting connection attempt to host, will retry for 10 seconds.
+2026/09/23 14:36:40.882 8835 8855 Debug Unity Player connection [487502781488] Successfully connected to host after 0 seconds.
+2026/09/23 14:36:41.058 8835 8855 Debug Unity CodeReloadManager initialized
+2026/09/23 14:36:41.058 8835 8855 Debug Unity InitializeScriptEngine OK (0x721007de80)
+2026/09/23 14:36:41.058 8835 8855 Debug Unity [EGL] Attaching window :0xb4000070d3248010
+2026/09/23 14:36:41.070 8835 8855 Debug Unity Input System module state changed to: Initialized.
+2026/09/23 14:36:41.076 8835 8855 Debug Unity [Physics::Module] Initialized fallback backend.
+2026/09/23 14:36:41.076 8835 8855 Debug Unity [Physics::Module] Id: 0xdecafbad
+2026/09/23 14:36:41.076 8835 8855 Debug Unity Loading player data from assets/bin/Data/data.unity3d
+2026/09/23 14:36:41.077 8835 8855 Debug Unity PlayerInitEngineNoGraphics OK
+2026/09/23 14:36:41.077 8835 8855 Info Unity Company Name: DefaultCompany
+2026/09/23 14:36:41.077 8835 8855 Info Unity Product Name: Mobile Game Dev
+2026/09/23 14:36:41.077 8835 8855 Debug Unity AndroidGraphics::Startup window =  0xb4000070d3248010
+2026/09/23 14:36:41.077 8835 8855 Debug Unity [EGL] Attaching window :0xb4000070d3248010
+2026/09/23 14:36:41.081 8835 8855 Debug Unity [Subsystems] Discovering subsystems at path /data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/base.apk/assets/bin/Data/UnitySubsystems
+2026/09/23 14:36:41.082 8835 8855 Debug Unity GfxDevice: creating device client; kGfxThreadingModeThreaded
+2026/09/23 14:36:41.082 8835 8855 Error HardwareProfiles Status: Not active
+2026/09/23 14:36:41.083 8835 8855 Debug vulkan searching for layers in '/data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/lib/arm64'
+2026/09/23 14:36:41.083 8835 8855 Debug vulkan searching for layers in '/data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/base.apk!/lib/arm64-v8a'
+2026/09/23 14:36:41.083 8835 8855 Debug Unity [Vulkan init] extensions: count=12
+2026/09/23 14:36:41.083 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_debug_report [enabled=1, external=0]
+2026/09/23 14:36:41.083 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_swapchain_colorspace [enabled=1, external=0]
+2026/09/23 14:36:41.083 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_GOOGLE_surfaceless_query [enabled=0, external=0]
+2026/09/23 14:36:41.083 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_android_surface [enabled=1, external=0]
+2026/09/23 14:36:41.083 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_device_group_creation [enabled=0, external=0]
+2026/09/23 14:36:41.083 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_fence_capabilities [enabled=1, external=0]
+2026/09/23 14:36:41.083 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_memory_capabilities [enabled=1, external=0]
+2026/09/23 14:36:41.083 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities [enabled=1, external=0]
+2026/09/23 14:36:41.083 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2 [enabled=1, external=0]
+2026/09/23 14:36:41.083 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2 [enabled=0, external=0]
+2026/09/23 14:36:41.083 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_surface [enabled=1, external=0]
+2026/09/23 14:36:41.083 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities [enabled=0, external=0]
+2026/09/23 14:36:41.083 8835 8855 Warn libc Access denied finding property "vendor.debug.forcibly_enable_mtk_ray_tracing"
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0x0
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [Vulkan init] Physical Device 0xb400007170963ce8 [0]: "Mali-G57 MC2" deviceType=1 vendorID=13b5 deviceID=90930010
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [VULKAN] Android Device Info:
+2026/09/23 14:36:41.089 8835 8855 Debug Unity {"Vendor": "ARM","Device Name": "Mali-G57 MC2","Brand": "Redmi","Product Name": "camellian_eea","Android OS Version": "13","Vulkan API Version": "Variant: 0 major.minor.patch:1.1.177","Driver Version": "134221824"}
+2026/09/23 14:36:41.089 8835 8855 Debug Unity Vulkan detection: 2
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [Vulkan init] extensions: count=12
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_debug_report [enabled=1, external=0]
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_swapchain_colorspace [enabled=1, external=0]
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_GOOGLE_surfaceless_query [enabled=0, external=0]
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_android_surface [enabled=1, external=0]
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_device_group_creation [enabled=0, external=0]
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_fence_capabilities [enabled=1, external=0]
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_memory_capabilities [enabled=1, external=0]
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities [enabled=1, external=0]
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2 [enabled=1, external=0]
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2 [enabled=0, external=0]
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_surface [enabled=1, external=0]
+2026/09/23 14:36:41.089 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities [enabled=0, external=0]
+2026/09/23 14:36:41.090 8835 8855 Warn libc Access denied finding property "vendor.debug.forcibly_enable_mtk_ray_tracing"
+2026/09/23 14:36:41.092 8835 8835 Verbose GameActivity onImeInsetsChanged from Text Listener
+2026/09/23 14:36:41.093 8835 8855 Debug Unity [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0x0
+2026/09/23 14:36:41.093 8835 8855 Debug Unity [Vulkan init] Physical Device 0xb400007170963ce8 [0]: "Mali-G57 MC2" deviceType=1 vendorID=13b5 deviceID=90930010
+2026/09/23 14:36:41.093 8835 8855 Debug Unity [Vulkan init] Selected physical device 0xb400007170963ce8
+2026/09/23 14:36:41.093 8835 8855 Debug Unity [Vulkan init] Graphics queue count=1
+2026/09/23 14:36:41.111 8835 8855 Debug nativeloader Load liblibswappywrapper.so using class loader ns clns-4 (caller=/data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/base.apk): dlopen failed: library "liblibswappywrapper.so" not found
+2026/09/23 14:36:41.112 8835 8855 Debug nativeloader Load /data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/lib/arm64/libswappywrapper.so using class loader ns clns-4 (caller=/data/app/~~OV8OkSHumdfIyJ2aXY3fsw==/com.kianodea.mobilegamedev-Gu9ZECmzgtIzyewuhBovAg==/base.apk): ok
+2026/09/23 14:36:41.112 8835 8855 Info SwappyWrapper SwappyWrapperInit() succeeded. Build: Sat Sep 19 18:01:51 2026
+2026/09/23 14:36:41.113 8835 8855 Debug Unity SwappyWrapper: InitSwappyWrapper() succeeded.
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: count=68
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_ANDROID_external_memory_android_hardware_buffer [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_4444_formats [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_astc_decode_mode [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_calibrated_timestamps [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_custom_border_color [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_descriptor_indexing [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_device_memory_report [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_external_memory_dma_buf [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_fragment_density_map [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_fragment_density_map2 [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_global_priority [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_host_query_reset [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_image_drm_format_modifier [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_image_robustness [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_index_type_uint8 [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_inline_uniform_block [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_line_rasterization [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_provoking_vertex [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_queue_family_foreign [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_scalar_block_layout [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_separate_stencil_usage [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_subgroup_size_control [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_texture_compression_astc_hdr [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_EXT_transform_feedback [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_GOOGLE_display_timing [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_16bit_storage [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_8bit_storage [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_bind_memory2 [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_buffer_device_address [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_create_renderpass2 [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_dedicated_allocation [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_depth_stencil_resolve [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_descriptor_update_template [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_device_group [enabled=0, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_driver_properties [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_fence [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_fence_fd [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_memory [enabled=1, external=0]
+2026/09/23 14:36:41.113 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_memory_fd [enabled=1, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_semaphore [enabled=1, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_external_semaphore_fd [enabled=1, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_get_memory_requirements2 [enabled=1, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_image_format_list [enabled=1, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_imageless_framebuffer [enabled=0, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_incremental_present [enabled=0, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_maintenance1 [enabled=1, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_maintenance2 [enabled=1, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_maintenance3 [enabled=0, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_multiview [enabled=1, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_relaxed_block_layout [enabled=0, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_sampler_mirror_clamp_to_edge [enabled=1, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion [enabled=1, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_separate_depth_stencil_layouts [enabled=0, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_shader_draw_parameters [enabled=0, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_shader_float16_int8 [enabled=1, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_shader_float_controls [enabled=0, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_shader_non_semantic_info [enabled=1, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_shader_subgroup_extended_types [enabled=0, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_shared_presentable_image [enabled=0, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_spirv_1_4 [enabled=0, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_storage_buffer_storage_class [enabled=1, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_swapchain [enabled=1, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_timeline_semaphore [enabled=0, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout [enabled=0, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_variable_pointers [enabled=0, external=0]
+2026/09/23 14:36:41.114 8835 8855 Debug Unity [Vulkan init] extensions: name=VK_KHR_vulkan_memory_model [enabled=0, external=0]
+2026/09/23 14:36:41.122 8835 8855 Debug Unity Vulkan API version 1.1.0 (1.1.177 supported by driver, 1.1.0 requested)
+2026/09/23 14:36:41.122 8835 8855 Debug Unity Vulkan vendor=[ARM] id=[13b5]
+2026/09/23 14:36:41.122 8835 8855 Debug Unity Vulkan renderer=[Mali-G57 MC2] id=[90930010]
+2026/09/23 14:36:41.122 8835 8855 Debug Unity Vulkan device type 1
+2026/09/23 14:36:41.122 8835 8855 Debug Unity Vulkan driverversion=[32.1.0 (0x08001000)] uint=[134221824]
+2026/09/23 14:36:41.122 8835 8855 Debug Unity Vulkan driverLibraryString=[Mali-G57 MC2 (9), v1.r32p1-01eac0.745b2925e235161571d02cd6e9b890a7]
+2026/09/23 14:36:41.122 8835 8855 Debug Unity VK use pretransform: 0
+2026/09/23 14:36:41.130 8835 8855 Debug Unity Vulkan PSO: Cache data successfully loaded [size=16109,path=/storage/emulated/0/Android/data/com.kianodea.mobilegamedev/cache/vulkan_pso_cache.bin]
+2026/09/23 14:36:41.139 8835 8855 Debug Unity [EGL] Attaching window :0x0
+2026/09/23 14:36:41.139 8835 8855 Debug Unity AndroidDisplayManagerVulkan::AttachWindow(0xb4000070d3248010, 0)
+2026/09/23 14:36:41.142 8835 8855 Debug Unity InitializeOrResetSwapChain 1080x2400 hdr=0 samples=0
+2026/09/23 14:36:41.145 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 38
+2026/09/23 14:36:41.145 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 0
+2026/09/23 14:36:41.145 8835 8855 Error gralloc4 Invalid base format! req_base_format = 0x0, req_format = 0x38, type = 0x0
+2026/09/23 14:36:41.145 8835 8855 Error gralloc4 ERROR: Unrecognized and/or unsupported format 0x38 and usage 0xb00
+2026/09/23 14:36:41.145 8835 8855 Error Gralloc4 isSupported(1, 1, 56, 1, ...) failed with 5
+2026/09/23 14:36:41.145 8835 8855 Error GraphicBufferAllocator Failed to allocate (4 x 4) layerCount 1 format 56 usage b00: 5
+2026/09/23 14:36:41.145 8835 8855 Error AHardwareBuffer GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -5), handle=0x0
+2026/09/23 14:36:41.146 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 38
+2026/09/23 14:36:41.146 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 0
+2026/09/23 14:36:41.146 8835 8855 Error gralloc4 Invalid base format! req_base_format = 0x0, req_format = 0x38, type = 0x0
+2026/09/23 14:36:41.146 8835 8855 Error gralloc4 ERROR: Unrecognized and/or unsupported format 0x38 and usage 0xb00
+2026/09/23 14:36:41.146 8835 8855 Error Gralloc4 isSupported(1, 1, 56, 1, ...) failed with 5
+2026/09/23 14:36:41.146 8835 8855 Error GraphicBufferAllocator Failed to allocate (4 x 4) layerCount 1 format 56 usage b00: 5
+2026/09/23 14:36:41.146 8835 8855 Error AHardwareBuffer GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -5), handle=0x0
+2026/09/23 14:36:41.157 8835 8855 Error SwappyDisplayManager dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[-5476376662596828800, -5476376662596429600]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+2026/09/23 14:36:41.157 8835 8921 Info SwappyDisplayManager Starting looper thread
+2026/09/23 14:36:41.166 8835 8855 Verbose MediaRouter Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+2026/09/23 14:36:41.168 8835 8855 Info MediaRouter Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+2026/09/23 14:36:41.169 8835 8855 Debug Unity AndroidDisplayManagerVulkan::AttachWindow(0xb4000070d3248010, 0)
+2026/09/23 14:36:41.169 8835 8855 Debug Unity Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+2026/09/23 14:36:41.169 8835 8855 Debug Unity [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+2026/09/23 14:36:41.181 8835 8855 Info AAudio AAudioStreamBuilder_openStream() called ----------------------------------------
+2026/09/23 14:36:41.181 8835 8855 Info AudioStreamBuilder rate   =  24000, channels  = 2, channelMask = 0x80000003, format   = 5, sharing = SH, dir = OUTPUT
+2026/09/23 14:36:41.181 8835 8855 Info AudioStreamBuilder device =      0, sessionId = 0, perfMode = 12, callback: ON with frames = 512, error callback: ON
+2026/09/23 14:36:41.181 8835 8855 Info AudioStreamBuilder usage  =      0, contentType = 0, inputPreset = 0, allowedCapturePolicy = 0
+2026/09/23 14:36:41.181 8835 8855 Info AudioStreamBuilder privacy sensitive = false, opPackageName = (null), attributionTag = (null)
+2026/09/23 14:36:41.182 8835 8855 Debug AudioStreamBuilder build() MMAP not used because sessionId specified.
+2026/09/23 14:36:41.182 8835 8855 Debug a.mobilegamedev PlayerBase::PlayerBase()
+2026/09/23 14:36:41.182 8835 8855 Debug AudioStreamTrack open(), request notificationFrames = 0, frameCount = 8192
+2026/09/23 14:36:41.182 8835 8855 Debug AudioTrack INSP: type=audio,case=1,set=0xb4000070c1aaaa00,stream_type=-1,sample_rate=24000,format=0x5,channel_mask=0x3,frame_count=8192,flags=0x4,notification_frames=0,session_id=0,transfer_type=1,uid=-1,pid=-1
+2026/09/23 14:36:41.182 8835 8855 Debug AudioTrack INSP: type=audio,case=1,attributes=1,content_type=2,usage=1,source=0,flags=0x0
+2026/09/23 14:36:41.182 8835 8855 Debug AudioTrack getCallingPackageName packagename_processed is com.kianodea.mobilegamedev
+2026/09/23 14:36:41.183 8835 8855 Debug AudioTrack set: mPowerTrackStatus=0
+2026/09/23 14:36:41.197 8835 8855 Debug AudioTrack createTrack_l(11172): 0xb4000070c1aaaa00, mCblk = 0x7211b7d000, mLatency = 383, mAfLatency = 42, frameCount = 8192, mSampleRate = 24000, mFlags = 0, mReqFrameCount = 8192, mNotificationFramesAct = 480
+2026/09/23 14:36:41.200 8835 8855 Debug AudioTrack setVolume(11172): 0xb4000070c1aaaa00, left = 1.000000, right = 1.000000
+2026/09/23 14:36:41.201 8835 8855 Debug AudioStreamTrack open() flags changed from 0x00000004 to 0x00000000
+2026/09/23 14:36:41.201 8835 8855 Debug AudioStreamTrack open() perfMode changed from 12 to 10
+2026/09/23 14:36:41.201 8835 8855 Debug AAudioStream setState(s#1) from 0 to 2
+2026/09/23 14:36:41.202 8835 8845 Debug a.mobilegamedev PlayerBase::setVolume() from IPlayer
+2026/09/23 14:36:41.202 8835 8855 Info AAudio AAudioStreamBuilder_openStream() returns 0 = AAUDIO_OK for s#1 ----------------
+2026/09/23 14:36:41.202 8835 8845 Debug AAudioStream setDuckAndMuteVolume() to 1.000000
+2026/09/23 14:36:41.202 8835 8845 Debug AudioTrack setVolume(11172): 0xb4000070c1aaaa00, left = 1.000000, right = 1.000000
+2026/09/23 14:36:41.203 8835 8855 Debug AAudio AAudioStream_requestStart(s#1) called --------------
+2026/09/23 14:36:41.203 8835 8855 Debug AAudioStream setState(s#1) from 2 to 3
+2026/09/23 14:36:41.203 8835 8855 Debug AudioTrack start(11172): 0xb4000070c1aaaa00, prior state:STATE_STOPPED
+2026/09/23 14:36:41.214 8835 8855 Debug AAudio AAudioStream_requestStart(s#1) returned 0 ---------
+2026/09/23 14:36:41.214 8835 8845 Debug AudioStreamTrack onAudioDeviceUpdate() audioIo 29 devId 3 => 3
+2026/09/23 14:36:41.215 8835 8845 Debug a.mobilegamedev PlayerBase::setVolume() from IPlayer
+2026/09/23 14:36:41.215 8835 8845 Debug AAudioStream setDuckAndMuteVolume() to 1.000000
+2026/09/23 14:36:41.215 8835 8845 Debug AudioTrack setVolume(11172): 0xb4000070c1aaaa00, left = 1.000000, right = 1.000000
+2026/09/23 14:36:41.216 8835 8835 Debug MediaRouter onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+2026/09/23 14:36:41.216 8835 8835 Verbose MediaRouter Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+2026/09/23 14:36:41.254 8835 8923 Debug AAudioStream setState(s#1) from 3 to 4
+2026/09/23 14:36:41.303 8835 8855 Debug Unity [Physics::Module] Selected backend.
+2026/09/23 14:36:41.303 8835 8855 Debug Unity [Physics::Module] Name: PhysX
+2026/09/23 14:36:41.303 8835 8855 Debug Unity [Physics::Module] Id: 0xf2b8ea05
+2026/09/23 14:36:41.303 8835 8855 Debug Unity [Physics::Module] SDK Version: 4.1.2
+2026/09/23 14:36:41.303 8835 8855 Debug Unity [Physics::Module] Integration Version: 1.0.0
+2026/09/23 14:36:41.303 8835 8855 Debug Unity [Physics::Module] Threading Mode: Multi-Threaded
+2026/09/23 14:36:41.418 8835 8855 Info IL2CPP Locale en-GB
+2026/09/23 14:36:41.440 8835 8855 Debug Unity PlayerInitEngineGraphics OK
+2026/09/23 14:36:41.470 8835 8855 Info Unity SetGameState: isLoading: false, mode: UNKNOWN, label: -1, quality: 2
+2026/09/23 14:36:41.470 8835 8855 Info Unity     HasWindow = 1, HasFocus = 0
+2026/09/23 14:36:41.470 8835 8855 Info Unity Handle cmd APP_CMD_WINDOW_RESIZED(3)
+2026/09/23 14:36:41.471 8835 8855 Debug Unity NativeWindow resized 1080x2400
+2026/09/23 14:36:41.471 8835 8855 Info Unity Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+2026/09/23 14:36:41.471 8835 8855 Info Unity Handle cmd APP_CMD_GAINED_FOCUS(7)
+2026/09/23 14:36:41.471 8835 8855 Info Unity Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+2026/09/23 14:36:41.472 8835 8855 Info Unity Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+2026/09/23 14:36:41.474 8835 8855 Debug Unity InitializeOrResetSwapChain 1080x2400 hdr=0 samples=0
+2026/09/23 14:36:41.485 8835 8921 Info SwappyDisplayManager Terminating looper thread
+2026/09/23 14:36:41.486 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 38
+2026/09/23 14:36:41.486 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 0
+2026/09/23 14:36:41.486 8835 8855 Error gralloc4 Invalid base format! req_base_format = 0x0, req_format = 0x38, type = 0x0
+2026/09/23 14:36:41.486 8835 8855 Error gralloc4 ERROR: Unrecognized and/or unsupported format 0x38 and usage 0xb00
+2026/09/23 14:36:41.486 8835 8855 Error Gralloc4 isSupported(1, 1, 56, 1, ...) failed with 5
+2026/09/23 14:36:41.486 8835 8855 Error GraphicBufferAllocator Failed to allocate (4 x 4) layerCount 1 format 56 usage b00: 5
+2026/09/23 14:36:41.486 8835 8855 Error AHardwareBuffer GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -5), handle=0x0
+2026/09/23 14:36:41.487 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 38
+2026/09/23 14:36:41.487 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 0
+2026/09/23 14:36:41.487 8835 8855 Error gralloc4 Invalid base format! req_base_format = 0x0, req_format = 0x38, type = 0x0
+2026/09/23 14:36:41.487 8835 8855 Error gralloc4 ERROR: Unrecognized and/or unsupported format 0x38 and usage 0xb00
+2026/09/23 14:36:41.487 8835 8855 Error Gralloc4 isSupported(1, 1, 56, 1, ...) failed with 5
+2026/09/23 14:36:41.487 8835 8855 Error GraphicBufferAllocator Failed to allocate (4 x 4) layerCount 1 format 56 usage b00: 5
+2026/09/23 14:36:41.487 8835 8855 Error AHardwareBuffer GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -5), handle=0x0
+2026/09/23 14:36:41.498 8835 8840 Info a.mobilegamedev Compiler allocated 5101KB to compile void android.view.ViewRootImpl.performTraversals()
+2026/09/23 14:36:41.505 8835 8855 Error SwappyDisplayManager dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[-5476376659662675584, -5476376659663656640]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+2026/09/23 14:36:41.506 8835 8931 Info SwappyDisplayManager Starting looper thread
+2026/09/23 14:36:41.560 8835 8855 Info Unity SetGameState: isLoading: true, mode: UNKNOWN, label: 0, quality: 2
+2026/09/23 14:36:41.575 8835 8918 Warn libc Access denied finding property "persist.vendor.debug.gpud.enable"
+2026/09/23 14:36:41.575 8835 8918 Info gralloc4 @set_metadata: update dataspace from GM (0x08010000 -> 0x00000000)
+2026/09/23 14:36:41.575 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:41.575 8835 8918 Debug BLASTBufferQueue [SurfaceView[com.kianodea.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]#1](f:0,a:1) acquireNextBufferLocked size=1080x2400 mFrameNumber=1 applyTransaction=true mTimestamp=1926347571909587 mPendingTransactions.size=0 graphicBufferId=37946036060186 transform=0
+2026/09/23 14:36:41.597 8835 8918 Info gralloc4 @set_metadata: update dataspace from GM (0x08010000 -> 0x00000000)
+2026/09/23 14:36:41.597 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:41.630 8835 8918 Info gralloc4 @set_metadata: update dataspace from GM (0x08010000 -> 0x00000000)
+2026/09/23 14:36:41.630 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:41.681 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:41.694 8835 8835 Debug Drawable getShouldDeclineWhiteColor false
+2026/09/23 14:36:41.697 8835 8858 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:41.714 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:41.748 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:41.781 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:41.848 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:41.883 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:41.917 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:41.988 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.023 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.058 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.129 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.163 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.172 8835 8923 Info AudioTrack isLongTimeZeroData zoer date time 1 Seconds
+2026/09/23 14:36:42.198 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.232 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.266 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.299 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.332 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.365 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.398 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.431 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.463 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.495 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.527 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.558 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.591 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.623 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.655 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.687 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.720 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.752 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.786 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.819 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.852 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.886 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.920 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.955 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:42.989 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.023 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.057 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.092 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.126 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.160 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.176 8835 8923 Info AudioTrack isLongTimeZeroData zoer date time 2 Seconds
+2026/09/23 14:36:43.194 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.228 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.262 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.296 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.330 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.363 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.396 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.429 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.462 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.494 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.527 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.560 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.592 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.625 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.627 8835 8835 Debug GameActivity ************** mainWorkCallback *********
+2026/09/23 14:36:43.627 8835 8835 Debug gti.InputConnection setSoftKeyboardActive, active: false
+2026/09/23 14:36:43.628 8835 8855 Debug Unity UnloadTime: 1.608923 ms
+2026/09/23 14:36:43.631 8835 8835 Info HandWritingStubImpl getCurrentKeyboardType: 1
+2026/09/23 14:36:43.642 8835 8855 Debug Unity UUID: 4e4f3a661e504539 => ca38ec36f8bb38ff35eba2fda6abf8c2
+2026/09/23 14:36:43.658 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.830 8835 8855 Info Unity [Boot] Xiaomi M2103K19G | Android OS 13 / API-33 (TP1A.220624.014/V14.0.4.0.TKSEUXM) | Vulkan | 1080x2400 @ 440 dpi
+2026/09/23 14:36:43.830 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:43.830 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:43.830 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:43.830 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:43.830 8835 8855 Info Unity UnityEngine.Debug:Log(Object)
+2026/09/23 14:36:43.830 8835 8855 Info Unity MobileBootstrap:Awake()
+2026/09/23 14:36:43.830 8835 8855 Info Unity 
+2026/09/23 14:36:43.839 8835 8855 Info Unity SetGameState: isLoading: false, mode: UNKNOWN, label: 0, quality: 2
+2026/09/23 14:36:43.845 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:43.847 8835 8855 Debug Unity InitializeOrResetSwapChain 1080x2400 hdr=0 samples=0
+2026/09/23 14:36:43.855 8835 8931 Info SwappyDisplayManager Terminating looper thread
+2026/09/23 14:36:43.856 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 38
+2026/09/23 14:36:43.856 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 0
+2026/09/23 14:36:43.856 8835 8855 Error gralloc4 Invalid base format! req_base_format = 0x0, req_format = 0x38, type = 0x0
+2026/09/23 14:36:43.856 8835 8855 Error gralloc4 ERROR: Unrecognized and/or unsupported format 0x38 and usage 0xb00
+2026/09/23 14:36:43.856 8835 8855 Error Gralloc4 isSupported(1, 1, 56, 1, ...) failed with 5
+2026/09/23 14:36:43.856 8835 8855 Error GraphicBufferAllocator Failed to allocate (4 x 4) layerCount 1 format 56 usage b00: 5
+2026/09/23 14:36:43.856 8835 8855 Error AHardwareBuffer GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -5), handle=0x0
+2026/09/23 14:36:43.856 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 38
+2026/09/23 14:36:43.856 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 0
+2026/09/23 14:36:43.856 8835 8855 Error gralloc4 Invalid base format! req_base_format = 0x0, req_format = 0x38, type = 0x0
+2026/09/23 14:36:43.856 8835 8855 Error gralloc4 ERROR: Unrecognized and/or unsupported format 0x38 and usage 0xb00
+2026/09/23 14:36:43.856 8835 8855 Error Gralloc4 isSupported(1, 1, 56, 1, ...) failed with 5
+2026/09/23 14:36:43.856 8835 8855 Error GraphicBufferAllocator Failed to allocate (4 x 4) layerCount 1 format 56 usage b00: 5
+2026/09/23 14:36:43.856 8835 8855 Error AHardwareBuffer GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -5), handle=0x0
+2026/09/23 14:36:43.871 8835 8855 Error SwappyDisplayManager dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[-5476376659662672896, -5476376659663674560]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+2026/09/23 14:36:43.872 8835 8950 Info SwappyDisplayManager Starting looper thread
+2026/09/23 14:36:43.876 8835 8855 Debug Unity Using NDK Choreographer.
+2026/09/23 14:36:43.908 8835 8855 Debug Unity Stopping Unity systrace
+2026/09/23 14:36:44.004 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/GaussianDepthOfField' is not supported or has been stripped from the build (in 'GaussianDepthOfField'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.004 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.004 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.004 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.004 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.004 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.004 8835 8855 Info Unity UnityEngine.Rendering.Universal.DepthOfFieldGaussianPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.004 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.004 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.004 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.004 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.004 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.004 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.004 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.004 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.004 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.004 8835 8855 Info Unity 
+2026/09/23 14:36:44.005 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/GaussianDepthOfField' is not supported or has been stripped from the build (in 'GaussianDepthOfField'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.005 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.005 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.005 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.005 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.005 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.005 8835 8855 Info Unity UnityEngine.Rendering.Universal.DepthOfFieldGaussianPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.005 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.005 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.005 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.005 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.005 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.005 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.005 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.005 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.005 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.005 8835 8855 Info Unity 
+2026/09/23 14:36:44.006 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/BokehDepthOfField' is not supported or has been stripped from the build (in 'BokehDepthOfField'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.006 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.006 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.006 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.006 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.006 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.006 8835 8855 Info Unity UnityEngine.Rendering.Universal.DepthOfFieldBokehPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.006 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.006 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.006 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.006 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.006 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.006 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.006 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.006 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.006 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.006 8835 8855 Info Unity 
+2026/09/23 14:36:44.007 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/CameraMotionBlur' is not supported or has been stripped from the build (in 'MotionBlur'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.007 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.007 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.007 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.007 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.007 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.007 8835 8855 Info Unity UnityEngine.Rendering.Universal.MotionBlurPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.007 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.007 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.007 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.007 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.007 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.007 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.007 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.007 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.007 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.007 8835 8855 Info Unity 
+2026/09/23 14:36:44.008 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/PaniniProjection' is not supported or has been stripped from the build (in 'PaniniProjection'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.008 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.008 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.008 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.008 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.008 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.008 8835 8855 Info Unity UnityEngine.Rendering.Universal.PaniniProjectionPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.008 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.008 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.008 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.008 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.008 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.008 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.008 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.008 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.008 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.008 8835 8855 Info Unity 
+2026/09/23 14:36:44.009 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.009 8835 8855 Info Unity 
+2026/09/23 14:36:44.009 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.009 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.009 8835 8855 Info Unity 
+2026/09/23 14:36:44.010 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.010 8835 8855 Info Unity 
+2026/09/23 14:36:44.010 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.010 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.010 8835 8855 Info Unity 
+2026/09/23 14:36:44.011 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.011 8835 8855 Info Unity 
+2026/09/23 14:36:44.011 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.011 8835 8855 Info Unity 
+2026/09/23 14:36:44.011 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.011 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.011 8835 8855 Info Unity 
+2026/09/23 14:36:44.012 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.012 8835 8855 Info Unity 
+2026/09/23 14:36:44.012 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.012 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.012 8835 8855 Info Unity 
+2026/09/23 14:36:44.013 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.013 8835 8855 Info Unity 
+2026/09/23 14:36:44.013 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.013 8835 8855 Info Unity 
+2026/09/23 14:36:44.013 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.013 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.013 8835 8855 Info Unity 
+2026/09/23 14:36:44.014 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.014 8835 8855 Info Unity 
+2026/09/23 14:36:44.014 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.014 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.014 8835 8855 Info Unity 
+2026/09/23 14:36:44.015 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.015 8835 8855 Info Unity 
+2026/09/23 14:36:44.015 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.015 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.015 8835 8855 Info Unity 
+2026/09/23 14:36:44.016 8835 8855 Info Unity Shader 'Hidden/Universal Render Pipeline/Bloom' is not supported or has been stripped from the build (in 'Bloom'). PostProcessing render passes will not execute.
+2026/09/23 14:36:44.016 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log_Injected(LogType, LogOption, ManagedSpanWrapper&, IntPtr)
+2026/09/23 14:36:44.016 8835 8855 Info Unity UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+2026/09/23 14:36:44.016 8835 8855 Info Unity UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+2026/09/23 14:36:44.016 8835 8855 Info Unity UnityEngine.Logger:Log(LogType, Object)
+2026/09/23 14:36:44.016 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcessUtils:LoadShader(Shader, String, LogType)
+2026/09/23 14:36:44.016 8835 8855 Info Unity UnityEngine.Rendering.Universal.BloomPostProcessPass:.ctor(Shader)
+2026/09/23 14:36:44.016 8835 8855 Info Unity UnityEngine.Rendering.Universal.PostProcess:.ctor(PostProcessData)
+2026/09/23 14:36:44.016 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2D:.ctor(Renderer2DData)
+2026/09/23 14:36:44.016 8835 8855 Info Unity UnityEngine.Rendering.Universal.Renderer2DData:Create()
+2026/09/23 14:36:44.016 8835 8855 Info Unity UnityEngine.Rendering.Universal.ScriptableRendererData:InternalCreateRenderer()
+2026/09/23 14:36:44.016 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreateRenderers()
+2026/09/23 14:36:44.016 8835 8855 Info Unity UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+2026/09/23 14:36:44.016 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+2026/09/23 14:36:44.016 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+2026/09/23 14:36:44.016 8835 8855 Info Unity UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+2026/09/23 14:36:44.016 8835 8855 Info Unity 
+2026/09/23 14:36:44.171 8835 8923 Info AudioTrack isLongTimeZeroData zoer date time 3 Seconds
+2026/09/23 14:36:44.200 8835 8918 Info gralloc4 @set_metadata: update dataspace from GM (0x08010000 -> 0x00000000)
+2026/09/23 14:36:44.200 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.201 8835 8918 Debug BLASTBufferQueue [SurfaceView[com.kianodea.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]#1](f:0,a:2) producer disconnected before: mAbandoned=0
+2026/09/23 14:36:44.201 8835 8918 Debug BLASTBufferQueue - BufferQueue mMaxAcquiredBufferCount=1 mMaxDequeuedBufferCount=2
+2026/09/23 14:36:44.201 8835 8918 Debug BLASTBufferQueue   mDequeueBufferCannotBlock=0 mAsyncMode=0
+2026/09/23 14:36:44.201 8835 8918 Debug BLASTBufferQueue   mQueueBufferCanDrop=0 mLegacyBufferDrop=1
+2026/09/23 14:36:44.201 8835 8918 Debug BLASTBufferQueue   default-size=[1080x2400] default-format=4   transform-hint=00 frame-counter=62
+2026/09/23 14:36:44.201 8835 8918 Debug BLASTBufferQueue   mTransformHintInUse=00 mAutoPrerotation=0
+2026/09/23 14:36:44.201 8835 8918 Debug BLASTBufferQueue FIFO(0):
+2026/09/23 14:36:44.201 8835 8918 Debug BLASTBufferQueue (mConsumerName=SurfaceView[com.kianodea.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]#1(BLAST Consumer)1, mConnectedApi=1, mConsumerUsageBits=2304, mId=228300000001, producer=[8835:com.kianodea.mobilegamedev], consumer=[8835:com.kianodea.mobilegamedev])
+2026/09/23 14:36:44.201 8835 8918 Debug BLASTBufferQueue Slots:
+2026/09/23 14:36:44.201 8835 8918 Debug BLASTBufferQueue  >[00:0xb40000717091a800] state=ACQUIRED 0xb4000071709a8e80 frame=62 [1080x2400:1088,  1]
+2026/09/23 14:36:44.201 8835 8918 Debug BLASTBufferQueue   [01:0xb40000717091ad00] state=FREE     0xb400007170922180 frame=0 [1080x2400:1088,  1]
+2026/09/23 14:36:44.201 8835 8918 Debug BLASTBufferQueue   [02:0xb400007170956c00] state=FREE     0xb4000070c1ad5380 frame=0 [1080x2400:1088,  1]
+2026/09/23 14:36:44.202 8835 8855 Debug Unity InitializeOrResetSwapChain 1080x2400 hdr=0 samples=1
+2026/09/23 14:36:44.231 8835 8950 Info SwappyDisplayManager Terminating looper thread
+2026/09/23 14:36:44.233 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 38
+2026/09/23 14:36:44.233 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 0
+2026/09/23 14:36:44.233 8835 8855 Error gralloc4 Invalid base format! req_base_format = 0x0, req_format = 0x38, type = 0x0
+2026/09/23 14:36:44.233 8835 8855 Error gralloc4 ERROR: Unrecognized and/or unsupported format 0x38 and usage 0xb00
+2026/09/23 14:36:44.233 8835 8855 Error Gralloc4 isSupported(1, 1, 56, 1, ...) failed with 5
+2026/09/23 14:36:44.234 8835 8855 Error GraphicBufferAllocator Failed to allocate (4 x 4) layerCount 1 format 56 usage b00: 5
+2026/09/23 14:36:44.234 8835 8855 Error AHardwareBuffer GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -5), handle=0x0
+2026/09/23 14:36:44.235 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 38
+2026/09/23 14:36:44.235 8835 8855 Error gralloc4 ERROR: Format allocation info not found for format: 0
+2026/09/23 14:36:44.235 8835 8855 Error gralloc4 Invalid base format! req_base_format = 0x0, req_format = 0x38, type = 0x0
+2026/09/23 14:36:44.235 8835 8855 Error gralloc4 ERROR: Unrecognized and/or unsupported format 0x38 and usage 0xb00
+2026/09/23 14:36:44.235 8835 8855 Error Gralloc4 isSupported(1, 1, 56, 1, ...) failed with 5
+2026/09/23 14:36:44.235 8835 8855 Error GraphicBufferAllocator Failed to allocate (4 x 4) layerCount 1 format 56 usage b00: 5
+2026/09/23 14:36:44.235 8835 8855 Error AHardwareBuffer GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -5), handle=0x0
+2026/09/23 14:36:44.255 8835 8855 Error SwappyDisplayManager dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[-5476376659662699008, -5476376662596421760]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+2026/09/23 14:36:44.255 8835 8962 Info SwappyDisplayManager Starting looper thread
+2026/09/23 14:36:44.266 8835 8918 Info gralloc4 @set_metadata: update dataspace from GM (0x08010000 -> 0x00000000)
+2026/09/23 14:36:44.266 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.266 8835 8918 Debug BLASTBufferQueue [SurfaceView[com.kianodea.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]#1](f:0,a:2) producer disconnected before: mAbandoned=0
+2026/09/23 14:36:44.266 8835 8918 Debug BLASTBufferQueue - BufferQueue mMaxAcquiredBufferCount=1 mMaxDequeuedBufferCount=2
+2026/09/23 14:36:44.266 8835 8918 Debug BLASTBufferQueue   mDequeueBufferCannotBlock=0 mAsyncMode=0
+2026/09/23 14:36:44.266 8835 8918 Debug BLASTBufferQueue   mQueueBufferCanDrop=0 mLegacyBufferDrop=1
+2026/09/23 14:36:44.266 8835 8918 Debug BLASTBufferQueue   default-size=[1080x2400] default-format=4   transform-hint=00 frame-counter=63
+2026/09/23 14:36:44.266 8835 8918 Debug BLASTBufferQueue   mTransformHintInUse=00 mAutoPrerotation=0
+2026/09/23 14:36:44.266 8835 8918 Debug BLASTBufferQueue FIFO(0):
+2026/09/23 14:36:44.266 8835 8918 Debug BLASTBufferQueue (mConsumerName=SurfaceView[com.kianodea.mobilegamedev/com.unity3d.player.UnityPlayerGameActivity]#1(BLAST Consumer)1, mConnectedApi=1, mConsumerUsageBits=2304, mId=228300000001, producer=[8835:com.kianodea.mobilegamedev], consumer=[8835:com.kianodea.mobilegamedev])
+2026/09/23 14:36:44.266 8835 8918 Debug BLASTBufferQueue Slots:
+2026/09/23 14:36:44.266 8835 8918 Debug BLASTBufferQueue  >[00:0xb400007170956c00] state=ACQUIRED 0xb4000070c1ad5380 frame=63 [1080x2400:1088,  1]
+2026/09/23 14:36:44.266 8835 8918 Debug BLASTBufferQueue   [01:0xb400007170956d00] state=FREE     0xb400007170922180 frame=0 [1080x2400:1088,  1]
+2026/09/23 14:36:44.266 8835 8918 Debug BLASTBufferQueue   [02:0xb40000717091a600] state=FREE     0xb40000717090c380 frame=0 [1080x2400:1088,  1]
+2026/09/23 14:36:44.285 8835 8918 Info gralloc4 @set_metadata: update dataspace from GM (0x08010000 -> 0x00000000)
+2026/09/23 14:36:44.285 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.300 8835 8918 Info gralloc4 @set_metadata: update dataspace from GM (0x08010000 -> 0x00000000)
+2026/09/23 14:36:44.300 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.316 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.333 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.353 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.366 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.382 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.399 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.416 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.433 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.449 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.466 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.483 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.499 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.517 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.532 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.550 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.566 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.583 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.600 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.617 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.633 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.650 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.667 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.683 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.700 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.716 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.734 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.749 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.767 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.799 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.815 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.831 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.847 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.863 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.879 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.895 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.911 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.926 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.943 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.959 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.975 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:44.992 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.008 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.025 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.042 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.059 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.076 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.093 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.111 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.128 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.145 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.162 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.176 8835 8923 Info AudioTrack isLongTimeZeroData zoer date time 4 Seconds
+2026/09/23 14:36:45.180 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.197 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.214 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.231 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.248 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.265 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.281 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.298 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.314 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.331 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.347 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.364 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.380 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.396 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.413 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.429 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.446 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.462 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.478 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.494 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.511 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.528 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.544 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.561 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.578 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.595 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.612 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.629 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.646 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.663 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.680 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.697 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.714 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.731 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.748 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.765 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.782 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.799 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.815 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.832 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.849 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.865 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.882 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.898 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.914 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.931 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.947 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.964 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.980 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:45.997 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.013 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.030 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.046 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.063 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.079 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.096 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.113 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.130 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.147 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.164 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.179 8835 8923 Info AudioTrack isLongTimeZeroData zoer date time 5 Seconds
+2026/09/23 14:36:46.181 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.198 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.215 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.231 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.249 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.265 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.282 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.299 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.316 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.333 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.350 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.366 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.383 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.400 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.417 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.433 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.449 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.466 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.482 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.499 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.515 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.532 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.548 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.565 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.582 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.598 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.615 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.632 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.649 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.666 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.682 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.699 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.716 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.733 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.750 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.766 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.783 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.800 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.817 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.834 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.850 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.868 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.884 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.901 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.917 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.934 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.951 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.967 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:46.984 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.000 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.018 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.034 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.050 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.067 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.083 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.100 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.116 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.134 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.150 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.167 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.176 8835 8923 Info AudioTrack isLongTimeZeroData zoer date time 6 Seconds
+2026/09/23 14:36:47.184 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.201 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.217 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.234 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.251 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.267 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.285 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.301 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.318 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.335 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.351 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.368 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.385 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.401 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.418 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.435 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.452 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.468 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.485 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.502 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.519 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.535 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.552 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.568 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.585 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.601 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.618 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.634 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.651 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.668 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.685 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.702 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.719 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.735 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.752 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.770 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.786 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.803 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.819 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.836 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.853 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.870 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.886 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.903 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.919 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.936 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.953 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.970 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:47.986 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.003 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.020 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.036 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.053 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.070 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.086 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.103 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.120 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.136 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.153 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.170 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.180 8835 8923 Info AudioTrack isLongTimeZeroData zoer date time 7 Seconds
+2026/09/23 14:36:48.186 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.203 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.220 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.237 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.253 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.270 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.287 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.303 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.320 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.337 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.354 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.370 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.388 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.404 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.421 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.438 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.454 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.471 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.488 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.505 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.521 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.538 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.554 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.571 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.587 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.604 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.621 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.638 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.654 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.671 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.688 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.705 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.722 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.738 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.755 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.771 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.788 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.805 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.822 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.838 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.856 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.872 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.889 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.906 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.922 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.938 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.955 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.972 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:48.989 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.006 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.022 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.039 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.056 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.073 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.089 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.106 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.122 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.139 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.156 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.172 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.187 8835 8923 Info AudioTrack isLongTimeZeroData zoer date time 8 Seconds
+2026/09/23 14:36:49.189 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.206 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.223 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.240 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.256 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.273 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.290 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.306 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.323 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.340 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.357 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.374 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.390 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.408 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.423 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.440 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.457 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.473 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.490 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.507 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.523 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.540 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.557 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.573 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.590 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.607 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.624 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.640 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.657 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.674 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.690 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.707 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.724 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.741 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.758 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.774 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.791 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.808 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.824 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.841 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.858 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.876 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.892 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.908 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.925 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.942 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.959 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.975 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:49.992 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.009 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.025 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.042 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.058 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.075 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.092 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.108 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.125 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.142 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.158 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.175 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.192 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.196 8835 8923 Info AudioTrack isLongTimeZeroData zoer date time 9 Seconds
+2026/09/23 14:36:50.209 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.225 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.242 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.259 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.275 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.292 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.309 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.326 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.343 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.359 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.376 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.394 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.410 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.426 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.443 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.460 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.477 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.493 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.511 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.527 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.543 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.560 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.576 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.593 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.610 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.626 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.643 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.659 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.676 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.693 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.710 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.726 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.743 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.760 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.777 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.793 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.810 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.827 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.844 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.860 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.877 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.894 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.911 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.928 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.944 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.961 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.978 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:50.994 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.011 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.029 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.044 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.061 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.077 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.094 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.111 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.128 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.144 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.161 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.178 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.194 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.196 8835 8923 Info AudioTrack isLongTimeZeroData zoer date time 10 Seconds
+2026/09/23 14:36:51.211 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.228 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.245 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.262 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.278 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.295 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.311 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.328 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.345 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.362 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.379 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.396 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.412 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.429 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.446 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.462 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.479 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.495 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.512 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.529 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.545 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.562 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.579 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.596 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.612 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.629 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.647 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.663 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.679 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.696 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.713 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.730 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.746 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.763 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.780 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.797 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.814 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.830 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.847 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.864 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.881 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.898 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.914 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.931 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.948 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.964 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.981 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:51.997 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.014 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.030 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.047 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.063 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.079 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.096 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.113 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.129 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.146 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.163 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.179 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.196 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.197 8835 8923 Info AudioTrack isLongTimeZeroData zoer date time 11 Seconds
+2026/09/23 14:36:52.213 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.230 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.247 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.264 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.281 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.298 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.315 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.332 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.349 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.365 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.382 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.399 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.416 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.432 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.449 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.466 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.482 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.499 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.515 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.532 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.548 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.565 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.582 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.598 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.615 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.631 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.647 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.664 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.681 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.697 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.714 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.731 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.748 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.765 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.782 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.799 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.816 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.832 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.849 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.866 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.883 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.899 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.916 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.933 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.950 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.966 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:52.983 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.000 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.016 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.033 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.049 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.066 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.083 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.099 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.115 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.132 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.150 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.166 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.183 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.195 8835 8923 Info AudioTrack isLongTimeZeroData zoer date time 12 Seconds
+2026/09/23 14:36:53.199 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.216 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.233 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.250 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.268 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.284 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.300 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.317 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.334 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.351 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.367 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.384 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.401 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.417 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.434 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.451 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.467 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.484 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.501 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.517 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.534 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.550 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.567 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.584 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.600 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.617 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.634 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.651 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.668 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.684 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.701 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.718 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.735 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.751 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.768 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.785 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.802 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.818 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.835 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.852 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.868 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.885 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.902 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.918 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.935 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.952 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.968 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:53.985 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.001 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.018 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.035 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.052 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.068 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.086 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.102 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.119 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.137 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.152 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.171 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.186 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.196 8835 8923 Info AudioTrack isLongTimeZeroData zoer date time 13 Seconds
+2026/09/23 14:36:54.202 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.219 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.236 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.253 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.269 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.286 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.302 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.319 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.336 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.352 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.369 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.382 8835 8841 Info a.mobilegamedev Background concurrent copying GC freed 4220KB AllocSpace bytes, 5(184KB) LOS objects, 49% free, 3342KB/6685KB, paused 292us,64us total 507.079ms
+2026/09/23 14:36:54.385 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.402 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.419 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.436 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.453 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.469 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.486 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.503 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.520 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.536 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.553 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.570 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.587 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.603 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.620 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.637 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.653 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.670 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.687 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.704 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.721 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.737 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.754 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.771 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.788 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.805 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.821 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.838 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.854 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.871 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.887 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.904 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.921 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.937 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.954 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.971 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:54.988 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.005 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.022 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.038 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.055 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.072 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.088 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.105 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.121 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.138 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.155 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.172 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.188 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.204 8835 8923 Info AudioTrack isLongTimeZeroData zoer date time 14 Seconds
+2026/09/23 14:36:55.205 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.222 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.239 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
+2026/09/23 14:36:55.255 8835 8918 Error gralloc4 Empty SMPTE 2094-40 data
