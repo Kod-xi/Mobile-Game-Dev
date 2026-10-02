@@ -14,3 +14,11 @@ Memory: 4 Gc allocated in frame.
 swipeDp = 50f
 tapMax = .3f
 
+| Test | Expected |
+|------|----------|
+| Press Home, wait 10 s, return | Paused, panel visible, audio silent, progress saved | ✅
+| Pull the notification shade down and up | Paused |✅
+| Neighbour calls you, you hang up | Paused, game resumes only on Resume |✅
+| Screen off with the power button, back on | Paused |
+| Force stop from Settings, relaunch | Progress restored from the save |✅
+
