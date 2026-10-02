@@ -23,12 +23,19 @@ public class SafeArea : MonoBehaviour
 
     void Apply(){
         _applied = Screen.safeArea;
+
+        Debug.Log($"Screen: {Screen.width} x {Screen.height}");
+        Debug.Log($"Safe Area: {_applied}");
+        
         Vector2 min = _applied.position;
         Vector2 max = _applied.position + _applied.size;
         min.x /= Screen.width;
         max.x /= Screen.width;
         min.y /= Screen.height;
         max.y /= Screen.height;
+
+        Debug.Log($"Anchors: min={min}, max={max}");
+        
         _rt.anchorMin = min;
         _rt.anchorMax = max;
         _rt.offsetMin = Vector2.zero;
