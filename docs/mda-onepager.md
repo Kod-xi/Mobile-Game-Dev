@@ -2,6 +2,7 @@ Title: Dash Runner
 One line pitch: Endless runner with aerial combat
 Aesthetics (target player feelings/experiences)
 Fast, skillful, satisfying.
+Aesthetics: Simplistic, Pixelated.
 Core mechanics (3–5 verbs/systems)
 Tap to jump, swipe to dash, tap mid-air to attack. Dashes can be cancelled into attacks.
 Dynamics 
@@ -13,6 +14,6 @@ Run length: 3-5 min
 High score leaderboard
 Platform features (haptics, safe-area handling; store/testing tracks = awareness only)
 Performance budget (target frame-time, memory, load time)
-Target 60fps
+Target 60fps, timeframe 17 ms, peak memory ceiling 512 MB, Cold start under 3s
 Monetisation (if any) & ethics notes
 Free to play
